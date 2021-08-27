@@ -1,7 +1,8 @@
 n = int(input())
-h = set(input() for _ in range(n))
-for s in h:
-    if "!" + s in h:
-        print(s)
+l = set(input() for _ in range(n))
+
+for i in l:
+    if '!' + i in l:
+        print(i)
         exit()
-print("satisfiable")
+print('satisfiable')
