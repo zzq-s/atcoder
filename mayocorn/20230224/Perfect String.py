@@ -1,0 +1,5 @@
+s = input()
+a = not s.isupper()
+b = not s.islower()
+c = len(s) == len(set(s))
+print("Yes" if a and b and c else "No")
